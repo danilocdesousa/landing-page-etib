@@ -1,3 +1,28 @@
+/* main */
+article,
+aside,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+.main {
+    background: #ffffff;
+    position: relative;
+    z-index: 3;
+}
+
+
+
+
+
 /* title */
 abbr[title],
 abbr[data-original-title] {
@@ -340,8 +365,12 @@ h2.title {
 }
 
 @media all and (max-width: 375px) {
-.page-header {
-    height: calc(100vh + 270px);
+    .page-header {
+        height: calc(100vh + 270px);
+    }
+    .main.main-raised {
+        margin-top: -30px;
+    }
 }
 
 .page-header {
