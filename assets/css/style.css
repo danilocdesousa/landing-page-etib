@@ -522,3 +522,10 @@ position: relative;
         transform: translate3d(230px, 0, 0);
     }
 }
+
+/* selection */
+.section {
+    padding: 70px 0;
+}
+
+
