@@ -1,3 +1,76 @@
+/* title */
+abbr[title],
+abbr[data-original-title] {
+  text-decoration: underline;
+  text-decoration: underline dotted;
+  cursor: help;
+  border-bottom: 0;
+}
+
+abbr[title]::after {
+    content: " ("attr(title) ")";
+}
+
+abbr[title],
+abbr[data-original-title] {
+  text-decoration: underline;
+  text-decoration: underline dotted;
+  cursor: help;
+  border-bottom: 0;
+}
+
+.title {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    min-height: 32px;
+}
+
+.title,
+.card-title,
+.info-title,
+.footer-brand,
+.footer-big h5,
+.footer-big h4,
+.media .media-heading {
+  font-weight: 400;
+  font-family: "Roboto", "Times New Roman", serif;
+}
+
+.title,
+.title a,
+.card-title,
+.card-title a,
+.info-title,
+.info-title a,
+.footer-brand,
+.footer-brand a,
+.footer-big h5,
+.footer-big h5 a,
+.footer-big h4,
+.footer-big h4 a,
+.media .media-heading,
+.media .media-heading a {
+  color: #000000;
+  text-decoration: none;
+}
+
+h2.title {
+    margin-bottom: 1rem;
+}
+
+.card .card-header .title {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
 /* container */
 .container {
     min-width: 992px !important;
