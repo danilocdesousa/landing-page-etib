@@ -968,6 +968,41 @@ footer .social-buttons .btn {
   color: #4caf50;
 }
 
+/* btn-lg */
+.btn-lg+.dropdown-toggle-split,
+.btn-group-lg>.btn+.dropdown-toggle-split {
+  padding-right: 1.6875rem;
+  padding-left: 1.6875rem;
+}
+
+.btn-group-lg .btn.btn-fab,
+.btn.btn-fab.btn-lg,
+.btn-group-lg>.btn.btn-fab,
+.btn-group-lg .btn.btn-just-icon,
+.btn.btn-just-icon.btn-lg,
+.btn-group-lg>.btn.btn-just-icon {
+  height: 57px;
+  min-width: 57px;
+  width: 57px;
+  line-height: 56px;
+}
+
+.btn-group-lg .btn.btn-fab .material-icons,
+.btn-group-lg .btn.btn-fab .fa,
+.btn.btn-fab.btn-lg .material-icons,
+.btn-group-lg>.btn.btn-fab .material-icons,
+.btn.btn-fab.btn-lg .fa,
+.btn-group-lg>.btn.btn-fab .fa,
+.btn-group-lg .btn.btn-just-icon .material-icons,
+.btn-group-lg .btn.btn-just-icon .fa,
+.btn.btn-just-icon.btn-lg .material-icons,
+.btn-group-lg>.btn.btn-just-icon .material-icons,
+.btn.btn-just-icon.btn-lg .fa,
+.btn-group-lg>.btn.btn-just-icon .fa {
+  font-size: 32px;
+  line-height: 56px;
+}
+
 
 
 
