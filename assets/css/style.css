@@ -1026,19 +1026,19 @@ footer {
     /* Safari */
     /* Safari 6.1+ */
     display: flex;
-  }
+}
   
-  footer ul {
+footer ul {
     margin-bottom: 0;
     padding: 0;
     list-style: none;
-  }
+}
   
-  footer ul li {
+footer ul li {
     display: inline-block;
-  }
+}
   
-  footer ul li a {
+footer ul li a {
     color: inherit;
     padding: 0.9375rem;
     font-weight: 500;
@@ -1048,157 +1048,127 @@ footer {
     text-decoration: none;
     position: relative;
     display: block;
-  }
+}
   
-  footer ul li a:hover {
+footer ul li a:hover {
     text-decoration: none;
-  }
-  
-  footer ul li .btn {
+}
+
+footer ul li .btn {
     margin: 0;
-  }
-  
-  footer ul.links-horizontal:first-child a {
+}
+
+footer ul.links-horizontal:first-child a {
     padding-left: 0;
-  }
-  
-  footer ul.links-horizontal:last-child a {
+}
+
+footer ul.links-horizontal:last-child a {
     padding-right: 0;
-  }
+}
   
-  footer ul.links-vertical li {
+footer ul.links-vertical li {
     display: block;
     margin-left: -5px;
     margin-right: -5px;
-  }
+}
   
-  footer ul.links-vertical li a {
+footer ul.links-vertical li a {
     padding: 5px;
-  }
+}
   
-  footer .social-buttons a,
-  footer .social-buttons .btn {
+footer .social-buttons a,
+footer .social-buttons .btn {
     margin-top: 5px;
     margin-bottom: 5px;
-  }
+}
   
-  footer .footer-brand {
+footer .footer-brand {
     float: left;
     height: 50px;
     padding: 15px 15px;
     font-size: 18px;
     line-height: 20px;
     margin-left: -15px;
-  }
+}
   
-  footer .footer-brand:hover,
-  footer .footer-brand:focus {
+footer .footer-brand:hover,
+footer .footer-brand:focus {
     color: #000000;
-  }
+}
   
-  footer .copyright {
+footer .copyright {
     padding: 15px 0;
-  }
+}
   
-  footer .copyright .material-icons {
+footer .copyright .material-icons {
     font-size: 18px;
     position: relative;
     top: 3px;
-  }
-  
-  footer .pull-center {
+}
+
+footer .pull-center {
     display: inline-block;
     float: none;
-  }
+}
 
-  .login-page .footer {
+.login-page .footer {
     position: absolute;
     width: 100%;
     background: transparent;
     bottom: 0;
     color: #ffffff;
     z-index: 2;
-  }
+}
   
-  .login-page .footer .copyright a {
+.login-page .footer .copyright a {
     color: #ffffff;
-  }
+}
 
-  .signup-page .footer .container {
+.signup-page .footer .container {
     padding: 0;
-  }
-  
-  .signup-page .footer .copyright,
-  .signup-page .footer a {
+}
+
+.signup-page .footer .copyright,
+.signup-page .footer a {
     color: #fff;
+}
+
+/* navbar-translate */
+
+.nav-open .navbar-translate {
+    -webkit-transform: translate3d(-230px, 0, 0);
+    -moz-transform: translate3d(-230px, 0, 0);
+    -o-transform: translate3d(-230px, 0, 0);
+    -ms-transform: translate3d(-230px, 0, 0);
+    transform: translate3d(-230px, 0, 0);
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .navbar .navbar-translate {
+    width: 100%;
+    position: relative;
+    display: flex;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: transform 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -moz-transition: transform 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -o-transition: transform 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -ms-transition: transform 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: transform 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  }
+
+  .menu-on-left .navbar .navbar-translate .navbar-brand {
+    position: absolute;
+    right: 0;
+    top: -15px;
+  }
+
+  .nav-open .menu-on-left .navbar>div .navbar-translate {
+    -webkit-transform: translate3d(230px, 0, 0);
+    -moz-transform: translate3d(230px, 0, 0);
+    -o-transform: translate3d(230px, 0, 0);
+    -ms-transform: translate3d(230px, 0, 0);
+    transform: translate3d(230px, 0, 0);
+    transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  }
