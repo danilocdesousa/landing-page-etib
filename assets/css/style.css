@@ -50,6 +50,33 @@ abbr[data-original-title] {
   border-bottom: 0;
 }
 
+/* description */
+.info-horizontal .description {
+    overflow: hidden;
+}
+
+.description,
+.card-description,
+.footer-big p {
+  color: #999;
+}
+
+.index-page h4.description {
+    font-size: 1.5em;
+}
+
+.profile-page .description {
+    margin: 1.071rem auto 0;
+    max-width: 600px;
+}
+
+.index-page .section-components h6.description {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+
+
 abbr[title]::after {
     content: " ("attr(title) ")";
 }
