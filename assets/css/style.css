@@ -1,17 +1,18 @@
+/*Cores e definição de fonte do body*/
 body {
   background-color: #6FCF97;
   color: #000000;
   font-weight: 300;
 }
 
-/* main */
+/* Posição da área de conteúdo */
 .etib-main {
     background: #ffffff;
     position: relative;
     z-index: 3;
 }
 
-/* main-raised */
+/* Efeitos da área de conteúdo */
 .main-raised {
     margin: -60px 30px 0px;
     border-radius: 6px;
@@ -19,14 +20,14 @@ body {
 }
 
 @media (max-width: 830px) {
-    .main-raised {
-      margin-left: 10px;
-      margin-right: 10px;
-    }
+  .main-raised {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 .etib-main.main-raised {
-    margin-top: -30px;
+  margin-top: -30px;
 }
 
 /* page-header */
@@ -187,21 +188,6 @@ body {
 }
 
 /* footer */
-.offline-doc .footer,
-.offline-free-doc .footer {
-  position: absolute;
-  width: 100%;
-  background: transparent;
-  bottom: 0;
-  color: #ffffff;
-  z-index: 1;
-}
-
-.offline-doc .footer .copyright a,
-.offline-free-doc .footer .copyright a {
-  color: #ffffff;
-}
-
 footer {
     padding: 0.9375rem 0;
     text-align: center;
@@ -212,107 +198,27 @@ footer {
 }
   
 footer ul {
-    margin-bottom: 0;
-    padding: 0;
-    list-style: none;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
 }
   
 footer ul li {
-    display: inline-block;
+  display: inline-block;
 }
   
 footer ul li a {
-    color: inherit;
-    padding: 0.9375rem;
-    font-weight: 500;
-    font-size: 12px;
-    text-transform: uppercase;
-    border-radius: 3px;
-    text-decoration: none;
-    position: relative;
-    display: block;
-}
-  
-footer ul li a:hover {
-    text-decoration: none;
+  color: inherit;
+  padding: 0.9375rem;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  text-decoration: none;
+  position: relative;
+  display: block;
 }
 
-footer ul li .btn {
-    margin: 0;
-}
-
-footer ul.links-horizontal:first-child a {
-    padding-left: 0;
-}
-
-footer ul.links-horizontal:last-child a {
-    padding-right: 0;
-}
-  
-footer ul.links-vertical li {
-    display: block;
-    margin-left: -5px;
-    margin-right: -5px;
-}
-  
-footer ul.links-vertical li a {
-    padding: 5px;
-}
-  
-footer .social-buttons a,
-footer .social-buttons .btn {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-  
-footer .footer-brand {
-    float: left;
-    height: 50px;
-    padding: 15px 15px;
-    font-size: 18px;
-    line-height: 20px;
-    margin-left: -15px;
-}
-  
-footer .footer-brand:hover,
-footer .footer-brand:focus {
-    color: #000000;
-}
-  
 footer .copyright {
-    padding: 15px 0;
+  padding: 15px 0;
 }
-  
-footer .copyright .material-icons {
-    font-size: 18px;
-    position: relative;
-    top: 3px;
-}
-
-footer .pull-center {
-    display: inline-block;
-    float: none;
-}
-
-.login-page .footer {
-    position: absolute;
-    width: 100%;
-    background: transparent;
-    bottom: 0;
-    color: #ffffff;
-    z-index: 2;
-}
-  
-.login-page .footer .copyright a {
-    color: #ffffff;
-}
-
-.signup-page .footer {
-    padding: 0;
-}
-
-.signup-page .footer .copyright,
-.signup-page .footer a {
-    color: #fff;
-}
-
