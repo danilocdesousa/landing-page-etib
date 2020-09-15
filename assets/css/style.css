@@ -1,7 +1,7 @@
 /*Cores e definição de fonte do body*/
 body {
   background-color: #6FCF97;
-  color: #000000;
+  color: #3C4858;
   font-weight: 300;
 }
 
@@ -212,7 +212,7 @@ footer ul li a {
   padding: 0.9375rem;
   font-weight: 500;
   font-size: 16px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   border-radius: 3px;
   text-decoration: none;
   position: relative;
