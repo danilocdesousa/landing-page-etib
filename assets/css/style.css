@@ -157,10 +157,10 @@
 /* header-filter */
 .header-filter {
   position: relative;
-  }
-  
-  .header-filter:before,
-  .header-filter:after {
+}
+
+.header-filter:before,
+.header-filter:after {
   position: absolute;
   z-index: 1;
   width: 100%;
@@ -169,17 +169,16 @@
   left: 0;
   top: 0;
   content: "";
-  }
-  
-  .header-filter::before {
+}
+
+.header-filter::before {
   background: rgba(0, 0, 0, 0.5);
-  }
-  
-  .header-filter {
+}
+
+.header-filter .container {
   z-index: 2;
   position: relative;
-  }
-
+}
 
 /* footer */
 .offline-doc .footer,
