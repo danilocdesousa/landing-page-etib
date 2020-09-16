@@ -441,3 +441,18 @@ a:hover {
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
+
+/* Seção Sobre */
+
+.section-tabs {
+  background: rgba(246, 245, 245, 0.7);
+}
+
+/* Card */
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 3rem 2rem;
+}
+
+
