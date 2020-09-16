@@ -455,4 +455,7 @@ a:hover {
   padding: 3rem 2rem;
 }
 
-
+/* Google Maps */
+.google-maps {
+  width: 100%;
+}
