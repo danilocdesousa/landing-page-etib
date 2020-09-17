@@ -116,17 +116,6 @@ small,
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
-/* hr */
-
-hr {
-  width:100%;
-  margin:0 auto;
-}
-
-.hr-orange {
-  background-color: rgba(242, 153, 74, 0.5); height: 1px; border: 0;
-}
-
 .title {
   margin-top: 30px;
   margin-bottom: 25px;
@@ -485,6 +474,11 @@ a:hover {
   margin-top: 40px;
 }
 
+.section-bottom,
+.item-bottom {
+  margin-bottom: 40px;
+}
+
 .etib-icon-top {
   margin-top: 5px;
 }
@@ -507,7 +501,21 @@ box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   padding: 1rem !important;
 }
 
+/* Cores dos ítens */
+
 .orange-text {
+  color: #F2994A;
+}
+
+.blue-text {
+  color: #F2994A;
+}
+
+.purple-text {
+  color: #F2994A;
+}
+
+.red-text {
   color: #F2994A;
 }
 
@@ -518,6 +526,54 @@ box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     width: 70px;
     height: 70px;
 }
+
+.blue-square {
+    background-color: #F2994A;
+    border-radius: 0.25rem;
+    min-width: 70px;
+    width: 70px;
+    height: 70px;
+}
+
+.purple-square {
+  background-color: #F2994A;
+  border-radius: 0.25rem;
+  min-width: 70px;
+  width: 70px;
+  height: 70px;
+}
+
+.red-square {
+  background-color: #F2994A;
+  border-radius: 0.25rem;
+  min-width: 70px;
+  width: 70px;
+  height: 70px;
+}
+
+
+hr {
+  width:100%;
+  margin:0 auto;
+}
+
+.hr-orange {
+  background-color: rgba(242, 153, 74, 0.5); height: 1px; border: 0;
+}
+
+.hr-blue {
+  background-color: rgba(47, 128, 237, 0.5); height: 1px; border: 0;
+}
+
+.hr-purple {
+  background-color: rgba(155, 81, 224, 0.5); height: 1px; border: 0;
+}
+
+.hr-red {
+  background-color: rgba(235, 87, 87, 0.5); height: 1px; border: 0;
+}
+
+/* Info */
 
 .info {
   padding-left: 1rem;
