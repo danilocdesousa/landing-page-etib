@@ -495,24 +495,31 @@ box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Ícones */
-
 .white-icon {
   color: #ffffff;
 }
 
-.p-2 {
-  padding: 15px !important;
-}
-
 .m-2 {
-  margin: 30px !important;
+  margin-top: 30px !important;
 }
 
-.material-icons {
-  font-size: 3.3125rem;
+.p-2 {
+  padding: 1rem !important;
+}
+
+.orange-text {
+  color: #F2994A;
 }
 
 .orange-square {
-  background-color: #F2994A;
-  border-radius: 0.25rem;
+    background-color: #F2994A;
+    border-radius: 0.25rem;
+    min-width: 70px;
+    width: 70px;
+    height: 70px;
+}
+
+.info {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
