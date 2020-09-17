@@ -455,6 +455,11 @@ a:hover {
   padding: 3rem 2rem;
 }
 
+.card-body-person {
+  flex: 1 1 auto;
+  padding: 0;
+}
+
 .card {
   border: 0;
 }
@@ -593,4 +598,18 @@ hr {
   color: #fff;
   background-color: #1D8248;
   border-color: none;
+}
+
+ /* btn-link */
+.btn-just-icon {
+  font-size: 1.5625rem;
+ 
+}
+
+.btn-link {
+  color: rgba(130, 130, 130, 0.9);
+}
+
+.btn-link:hover {
+  color: #828282;
 }
