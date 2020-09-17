@@ -620,6 +620,10 @@ hr {
   height: 6rem;
 }
 
+.extra-big-img {
+  height: 8rem;
+}
+
 .section-tabs-radius {
   background: rgba(246, 245, 245, 0.7);
   border-radius: 0rem 0rem 0.5rem 0.5rem;
