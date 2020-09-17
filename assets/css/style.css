@@ -630,10 +630,14 @@ hr {
   height: 80px;
 }
 
+/* Bordas do background da base na área de conteúdo */
+
 .section-tabs-radius {
   background: rgba(246, 245, 245, 0.7);
   border-radius: 0rem 0rem 0.5rem 0.5rem;
 }
+
+/* Itens do menu da barra de navegação */
 
 .dropdown-item-r {
   text-align: right;
