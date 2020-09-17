@@ -484,6 +484,11 @@ a:hover {
   margin-bottom: 40px;
 }
 
+.item-bottom-small {
+  margin-bottom: 30px;
+}
+
+
 .etib-icon-top {
   margin-top: 5px;
 }
@@ -614,17 +619,32 @@ hr {
   color: #828282;
 }
 
+.btn-padding {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 
 /* Img apoio */
 .big-img {
-  height: 6rem;
-}
-
-.extra-big-img {
-  height: 8rem;
+  height: 80px;
 }
 
 .section-tabs-radius {
   background: rgba(246, 245, 245, 0.7);
   border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+
+.dropdown-item-r {
+  text-align: right;
+}
+
+.dropdown-item {
+ color: #3C4858;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #6FCF97;
 }
