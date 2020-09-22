@@ -426,7 +426,6 @@ a:hover {
 }
 
 /* navbar-toggler */
-
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.5);
   border-color: rgba(0, 0, 0, 0.0);
@@ -443,13 +442,11 @@ a:hover {
 }
 
 /* Seção Sobre */
-
 .section-tabs {
   background: rgba(246, 245, 245, 0.7);
 }
 
 /* Card */
-
 .card-body {
   flex: 1 1 auto;
   padding: 3rem 2rem;
@@ -474,7 +471,6 @@ a:hover {
 }
 
 /* Espaço */
-
 .etib-h3-top {
   margin-top: 40px;
 }
@@ -487,7 +483,6 @@ a:hover {
 .item-bottom-small {
   margin-bottom: 30px;
 }
-
 
 .etib-icon-top {
   margin-top: 5px;
@@ -512,7 +507,6 @@ box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Cores dos ítens */
-
 .orange-text {
   color: #F2994A;
 }
@@ -530,19 +524,19 @@ box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .orange-square {
-    background-color: #F2994A;
-    border-radius: 0.25rem;
-    min-width: 70px;
-    width: 70px;
-    height: 70px;
+  background-color: #F2994A;
+  border-radius: 0.25rem;
+  min-width: 70px;
+  width: 70px;
+  height: 70px;
 }
 
 .blue-square {
-    background-color: #2F80ED;
-    border-radius: 0.25rem;
-    min-width: 70px;
-    width: 70px;
-    height: 70px;
+  background-color: #2F80ED;
+  border-radius: 0.25rem;
+  min-width: 70px;
+  width: 70px;
+  height: 70px;
 }
 
 .purple-square {
@@ -560,7 +554,6 @@ box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   width: 70px;
   height: 70px;
 }
-
 
 hr {
   width:100%;
@@ -605,7 +598,7 @@ hr {
   border-color: none;
 }
 
- /* btn-link */
+/* btn-link */
 .btn-just-icon {
   font-size: 1.5625rem;
  
@@ -623,7 +616,6 @@ hr {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
-
 
 /* Img apoio */
 .medium-img {
