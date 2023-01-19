@@ -21,7 +21,7 @@ O Encontro de Tecnologia da Informação da Ibiapaba (ETIB) é uma atividade de 
 
 ## Screenshots
 
-- Início
+- Início da página
 
 ![Captura de tela da página inicial do LP do ETIB](./assets/img/screenshots/screenshot-danilocdesousa.github.io-2023.01.19-19_10_45.png)
 

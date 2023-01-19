@@ -94,6 +94,12 @@ p {
   margin: 0 0 10px;
 }
 
+.p-home {
+  font-size: 1.125rem;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
 b {
   font-weight: 500;
 }
