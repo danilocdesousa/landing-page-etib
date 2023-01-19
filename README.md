@@ -76,8 +76,9 @@ Pull requests não estão sendo aceitos no momento.
 
 - Antonia Eduarda Ferreira
 - Jefferson Nathan Silva Teles
+- [Danilo C. de Sousa](https://github.com/danilocdesousa)
 
-**Web Design e Front-end**
+**UI e Front-end**
 
 - [Danilo C. de Sousa](https://github.com/danilocdesousa)
 
